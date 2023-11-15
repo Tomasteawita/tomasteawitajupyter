@@ -30,7 +30,7 @@ Este proyecto fue desarrollado
 
 ## Creación del entorno
 1. Para crear el entorno es necesario tener instalada Docker Desktop (https://www.docker.com/products/docker-desktop).
-2. Creamos el directorio "postgres_data", dentro del directorio docker_shared_folder.
+2. Creamos el directorio "postgres_data" y "working_dir", dentro del directorio docker_shared_folder.
 3. Posicionados en el directorio raiz del proyecto ejecutamos:
 ```bash
   docker-compose up --build

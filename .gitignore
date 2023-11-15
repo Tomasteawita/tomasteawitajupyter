@@ -1,2 +1,4 @@
 postgres_data/
 working_dir/
+.metals/
+.vscode/
