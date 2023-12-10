@@ -20,7 +20,7 @@ services:
       NB_GID: 1000
       CHOWN_HOME: 'yes'
       CHOWN_HOME_OPTS: '-R'
-      SPARK_CLASSPATH: '/home/tomasteawita/working_dir/driver_jdbc/postgresql-42.5.2.jar'
+      SPARK_CLASSPATH: '/home/tomasteawita/working_dir/spark_drivers/postgresql-42.5.2.jar'
     networks:
       tomasteawita_net:
         ipv4_address: 172.7.7.1
@@ -28,7 +28,7 @@ services:
   postgres:
     container_name: tomasteawita_postgres
     image: 'postgres:15'
-    hostname: postgres_sem7
+    hostname: postgres_host
     volumes:
       - ./docker_shared_folder/postgres_data:/var/lib/postgresql/data
     ports:

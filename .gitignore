@@ -1,4 +1,6 @@
 postgres_data/
-working_dir/
+files/
+__pycache__/
+.ipynb_checkpoints/
 .metals/
 .vscode/
